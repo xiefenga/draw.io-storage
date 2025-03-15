@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="AxPX9NKccg57A9d5xesL-1" value="目标检测模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="294" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AxPX9NKccg57A9d5xesL-2" value="实时图像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="72" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="83" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AxPX9NKccg57A9d5xesL-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AxPX9NKccg57A9d5xesL-2" target="AxPX9NKccg57A9d5xesL-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -23,6 +23,42 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="202" y="120" as="sourcePoint" />
             <mxPoint x="290" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AxPX9NKccg57A9d5xesL-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AxPX9NKccg57A9d5xesL-1" target="AxPX9NKccg57A9d5xesL-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="340" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AxPX9NKccg57A9d5xesL-7" value="工具封装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AxPX9NKccg57A9d5xesL-8" value="智能体配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AxPX9NKccg57A9d5xesL-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="AxPX9NKccg57A9d5xesL-7" target="AxPX9NKccg57A9d5xesL-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="150" as="sourcePoint" />
+            <mxPoint x="350" y="218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AxPX9NKccg57A9d5xesL-11" value="REST 接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AxPX9NKccg57A9d5xesL-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AxPX9NKccg57A9d5xesL-1" target="AxPX9NKccg57A9d5xesL-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AxPX9NKccg57A9d5xesL-13" value="场景应用调用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AxPX9NKccg57A9d5xesL-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AxPX9NKccg57A9d5xesL-11" target="AxPX9NKccg57A9d5xesL-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
